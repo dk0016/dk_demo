@@ -1,0 +1,11 @@
+.imagecard {
+    padding-left: 2px;
+    padding-right: 2px;
+    height: 250px;
+    border-radius: 15px;
+  }
+  .cardsize {
+    border-radius: 12px;
+    background: rgba(112, 108, 108, 0.2);
+    color: aliceblue;
+  }

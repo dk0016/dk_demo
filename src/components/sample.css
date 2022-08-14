@@ -1,0 +1,34 @@
+.imagecard {
+  padding-left: 2px;
+  padding-right: 2px;
+  height: 250px;
+  border-radius: 15px;
+}
+.cardsize {
+  border-radius: 12px;
+  background: rgba(255, 112, 112, 0.2);
+  color: aliceblue;
+}
+.navunderline {
+  text-decoration: none;
+}
+
+.welcomeimage {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.loginpage {
+  display: flex;
+  justify-content: center;
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .cardsize {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+  }
+}
+
+
